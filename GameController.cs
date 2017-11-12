@@ -29,7 +29,7 @@ public class GameController : MonoBehaviour
         gameOverText.text = "";
         score = 0;
         UpdateScore();
-        StartCoroutine(Spawnwaves()); //Lancée comme coroutine pour ne pas freezer pendant le décompte entre chaque vague
+        StartCoroutine(Spawnwaves()); // Lancée comme coroutine pour ne pas freezer pendant le décompte entre chaque vague
     }
 
     private void Update()
